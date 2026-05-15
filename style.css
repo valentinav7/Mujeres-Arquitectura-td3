@@ -1,0 +1,168 @@
+/* ------------------------------------- */
+/* Reinicio de los estilos para borrar modificaciones del navegador */
+/* ------------------------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+
+/* ------------------------------------- */
+/* Estilos para el HOME */
+/* ------------------------------------- */
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+img{
+    object-fit: contain;
+    align-self: flex-start;
+}
+
+p#creditos{
+    text-align: center;
+}
+
+h3{
+    font-family: "Oswald", sans-serif;
+    font-size: 20pt;
+    text-align: center;
+}
+
+h1{
+    font-family: "Oswald", sans-serif;
+    font-size: 50pt;
+    text-align: left;
+}
+
+h2{
+    font-family: "Oswald", sans-serif;
+    font-size: 40pt;
+    text-align: left;
+}
+
+h2#descripcion{
+    font-family: "Google Sans", sans-serif;
+    font-size: 15pt;
+    text-align: left;
+}
+
+p{
+    font-family: "Google Sans", sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a{
+    font-family: "Oswald", sans-serif;
+    font-size: 12pt;
+    padding: 1% 3%;
+    text-decoration: none;
+    color: rgb(61, 100, 175);
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    border-radius: 12px;
+}
+
+/* ------------------------------------- */
+/* Estilos para las secciones */
+/* ------------------------------------- */
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+header{
+    background-color: rgb(173, 222, 224);
+    padding: 5%;
+}
+
+nav{
+    background-color: rgb(61, 100, 175);
+    padding: 5%;
+
+}
+
+section#Zaha{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 3400px; /* Esta propiedad se puede cambiar según el alto del contenido */ 
+    background-color: rgb(255, 255, 255);
+    padding: 5%;
+}
+
+section#Kazuyo{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 3250px; /* Esta propiedad se puede cambiar según el alto del contenido */ 
+    background-color: rgb(255, 255, 255);
+    padding: 5%;
+}
+
+section#Odile{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 2350px; /* Esta propiedad se puede cambiar según el alto del contenido */ 
+    background-color: rgb(255, 255, 255);
+    padding: 5%;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(61, 100, 175); 
+    color: white;
+    padding: 1%;
+    text-align: center;
+}
+
+a{
+    font-family: "Google Sans", sans-serif;
+    color:rgb(61, 100, 175) ;
+}
+
+img{
+    width: 50%; 
+    padding: 20px;
+}
+
+img#portada{
+    width: 100%;
+}
+
+img#kazuyo{
+    display: block;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.imageflex { display: flex; padding: 5%;}
+.imageflexsection { display:flex;}
+.imageflexcontent { margin-left: 15px; margin-top: 20; }
+
+
+.oswald-bold {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.google-sans-regular {
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
+}
